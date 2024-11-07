@@ -1,5 +1,5 @@
 document.getElementById('getApi').addEventListener('click', getApi);
-const apiId= 'e2d2fe2c76f848a2b1570500222607';
+const apiId= 'a020832439a0fcd8035d0f4fcc21ab9b';
 function getApi() {
     var CityName = document.getElementById('cityName').value;
 console.log(CityName)
