@@ -3,7 +3,7 @@ const apiId= 'f7588f03c7354807a1b133358240711';
 function getApi() {
     var CityName = document.getElementById('cityName').value;
 console.log(CityName)
-const url = `http://api.weatherapi.com/v1/current.json?key=${apiId}&q=${CityName}&aqi=yes`;
+const url = `https://api.weatherapi.com/v1/current.json?key=${apiId}&q=${CityName}&aqi=yes`;
 console.log(url);
 fetch(url)
     .then((res) => res.json())
